@@ -106,4 +106,15 @@ yearsUntilRetirement('Paul', 1920);
 */
 
 
-//Lecture: statment and expressions
+//Lecture: arrays
+
+var paul =['paul', 'cater', 1990, 'developer', false];
+
+paul.push('green');
+paul.unshift('mr');
+paul.pop();
+paul.shift();
+
+console.log(paul);
+
+if(paul.indexOf('developer') === -1)
