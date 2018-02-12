@@ -42,6 +42,7 @@ else{
 
 //Lecture: Boolean logic and switch
 
+/*
 let age  = 25;
 
 if ( age < 20) {
@@ -71,4 +72,38 @@ switch (job) {
   default:
   console.log('john does something else');
 
+}*/
+
+
+//////
+// lecture:function
+/*
+function calculateAge(yearOfBirth) {
+  let age = 2018 - yearOfBirth;
+  return age;
 }
+
+
+let agePaul = calculateAge(1990);
+let ageMike = calculateAge(1950);
+let ageMary = calculateAge(1920);
+
+console.log(agePaul);
+console.log(ageMike);
+console.log(ageMary);
+
+function yearsUntilRetirement (name, yearOfBirth) {
+  let age = calculateAge(yearOfBirth);
+  let retirement = 65 - age;
+    if(retirement <= 0)
+      {console.log(name + ' is already retired');}
+        else{
+                console.log(name + ' retires in ' + retirement);
+      }
+}
+
+yearsUntilRetirement('Paul', 1920);
+*/
+
+
+//Lecture: statment and expressions
