@@ -107,7 +107,7 @@ yearsUntilRetirement('Paul', 1920);
 
 
 //Lecture: arrays
-
+/*
 var paul =['paul', 'cater', 1990, 'developer', false];
 
 paul.push('green');
@@ -118,3 +118,30 @@ paul.shift();
 console.log(paul);
 
 if(paul.indexOf('developer') === -1)
+*/
+
+//lecture objects
+var paul = {
+  name:'Paul',
+  lastName:'Cater',
+  yearOfBirth: 1990,
+  job:'developer',
+  isMarried:false
+};
+
+console.log(paul.lastName);
+console.log(paul['lastName']);
+
+paul.lastName = 'Cater_';
+console.log(paul.lastName);
+
+
+
+
+var jane = new Object();
+jane.name = 'jane';
+jane.lastName = 'new';
+jane['yearOfBirth'] = 1988;
+jane['job'] = 'dhdd';
+
+console.log(jane);
