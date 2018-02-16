@@ -121,23 +121,45 @@ if(paul.indexOf('developer') === -1)
 */
 
 //lecture objects
+/*
 var paul = {
   name:'Paul',
   lastName:'Cater',
   yearOfBirth: 1990,
   job:'developer',
-  isMarried:false
+  isMarried:false,
+  family:['dad','sister','brother'],
+  calculateAge: function() {
+    return 2016 - this.yearOfBirth;
+  }
 };
-
+console.log(paul);
 console.log(paul.lastName);
 console.log(paul['lastName']);
-
+console.log(paul.family[1]);
 paul.lastName = 'Cater_';
-console.log(paul.lastName);
+console.log(paul.lastName);*/
+//console.log(paul.calculateAge(1980));
+//console.log(paul.calculateAge());
+/*
+var age = paul.calculateAge();
+paul.age = age;
 
 
 
-
+var paul = {
+  name:'Paul',
+  lastName:'Cater',
+  yearOfBirth: 1990,
+  job:'developer',
+  isMarried:false,
+  family:['dad','sister','brother'],
+  calculateAge: function() {
+    //return 2016 - this.yearOfBirth;
+    this.age = 2017 - this.yearOfBirth;
+  }
+};
+/*
 var jane = new Object();
 jane.name = 'jane';
 jane.lastName = 'new';
@@ -145,3 +167,4 @@ jane['yearOfBirth'] = 1988;
 jane['job'] = 'dhdd';
 
 console.log(jane);
+*/
