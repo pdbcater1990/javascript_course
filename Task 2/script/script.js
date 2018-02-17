@@ -1,22 +1,30 @@
 ///////////////////////////////////////
 // Lecture: Hoisting
+calulateAge(1990);
+function calulateAge(year) {
+  console.log(2018 - year);
+}
+
+
+// retirement(1990);
+
+var retirement = function(year) {
+  console.log(65 - (2017 - year));
+}
 
 
 
+// variables
+console.log(age);
+var age = 27;
+console.log(age);
 
+function foo() {
+  var age = 70;
+  console.log(age);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+foo();
 ///////////////////////////////////////
 // Lecture: Scoping
 
@@ -66,12 +74,3 @@ function third() {
 
 ///////////////////////////////////////
 // Lecture: The this keyword
-
-
-
-
-
-
-
-
-
