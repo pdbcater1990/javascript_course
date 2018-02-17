@@ -168,3 +168,43 @@ jane['job'] = 'dhdd';
 
 console.log(jane);
 */
+
+
+
+
+
+
+///////////////
+// Lecture :loops
+
+/*for (var i = 0; i <= 9; i++) {
+  console.log(i);
+}
+*/
+
+
+/*
+let names = ['paul','laura','rebecca','aaron','reece'];
+
+for (var i = names.length - 1; i >= 0; i--) {
+  console.log(names[i]);
+}
+
+console.log(names[i]);
+
+let i = 0;
+while (i < names.length) {
+  console.log(names[i]);
+  i++;
+}
+
+
+for (var i = 1; i <= 5; i++) {
+console.log(i);
+if ( i === 3) {
+  //break; breaks the loop
+  //continue; skips over when conditions are met
+}
+
+}
+*/
