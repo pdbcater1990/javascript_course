@@ -1,6 +1,6 @@
 ///////////////////////////////////////
 // Lecture: Hoisting
-calulateAge(1990);
+/*calulateAge(1990);
 function calulateAge(year) {
   console.log(2018 - year);
 }
@@ -24,7 +24,7 @@ function foo() {
   console.log(age);
 }
 
-foo();
+foo();*/
 ///////////////////////////////////////
 // Lecture: Scoping
 
@@ -74,3 +74,38 @@ function third() {
 
 ///////////////////////////////////////
 // Lecture: The this keyword
+//console.log(this);
+
+calulateAge(1985);
+
+function calulateAge(year) {
+  console.log(2016 - year);
+  console.log(this);
+
+}
+
+var paul = {
+  name: 'paul',
+  yearOfBirth: 1990,
+  calulateAge: function(){
+  console.log(this);
+  console.log(2017 - this.yearOfBirth);
+
+  function innerFunction() {
+    console.log(this);
+  }
+  innerFunction();
+}
+}
+
+paul.calulateAge();
+
+
+
+var mike = {
+  name:'mike',
+  yearOfBirth:1984
+};
+
+mike.calulateAge = paul.calulateAge;
+mike.calulateAge();
