@@ -15,7 +15,7 @@ else {
 }
 }
 */
-
+/
 let full_1 =[];
 let full_2 = [];
 
