@@ -117,4 +117,5 @@ paul.shift();
 
 console.log(paul);
 
-if(paul.indexOf('developer') === -1)
+if(paul.indexOf('teacher') === -1)
+{console.log('paul is a developer');}
