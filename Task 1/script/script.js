@@ -107,7 +107,7 @@ yearsUntilRetirement('Paul', 1920);
 
 
 //Lecture: arrays
-
+/*
 var paul =['paul', 'cater', 1990, 'developer', false];
 
 paul.push('green');
@@ -117,5 +117,99 @@ paul.shift();
 
 console.log(paul);
 
+<<<<<<< HEAD
 if(paul.indexOf('teacher') === -1)
 {console.log('paul is a developer');}
+=======
+if(paul.indexOf('developer') === -1)
+*/
+
+//lecture objects
+/*
+var paul = {
+  name:'Paul',
+  lastName:'Cater',
+  yearOfBirth: 1990,
+  job:'developer',
+  isMarried:false,
+  family:['dad','sister','brother'],
+  calculateAge: function() {
+    return 2016 - this.yearOfBirth;
+  }
+};
+console.log(paul);
+console.log(paul.lastName);
+console.log(paul['lastName']);
+console.log(paul.family[1]);
+paul.lastName = 'Cater_';
+console.log(paul.lastName);*/
+//console.log(paul.calculateAge(1980));
+//console.log(paul.calculateAge());
+/*
+var age = paul.calculateAge();
+paul.age = age;
+
+
+
+var paul = {
+  name:'Paul',
+  lastName:'Cater',
+  yearOfBirth: 1990,
+  job:'developer',
+  isMarried:false,
+  family:['dad','sister','brother'],
+  calculateAge: function() {
+    //return 2016 - this.yearOfBirth;
+    this.age = 2017 - this.yearOfBirth;
+  }
+};
+/*
+var jane = new Object();
+jane.name = 'jane';
+jane.lastName = 'new';
+jane['yearOfBirth'] = 1988;
+jane['job'] = 'dhdd';
+
+console.log(jane);
+*/
+
+
+
+
+
+
+///////////////
+// Lecture :loops
+
+/*for (var i = 0; i <= 9; i++) {
+  console.log(i);
+}
+*/
+
+
+/*
+let names = ['paul','laura','rebecca','aaron','reece'];
+
+for (var i = names.length - 1; i >= 0; i--) {
+  console.log(names[i]);
+}
+
+console.log(names[i]);
+
+let i = 0;
+while (i < names.length) {
+  console.log(names[i]);
+  i++;
+}
+
+
+for (var i = 1; i <= 5; i++) {
+console.log(i);
+if ( i === 3) {
+  //break; breaks the loop
+  //continue; skips over when conditions are met
+}
+
+}
+*/
+>>>>>>> eb746d732a7fd5fef3b125cddfa07c293fda2436
